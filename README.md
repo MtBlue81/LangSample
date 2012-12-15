@@ -5,7 +5,7 @@ LangSample
 
 * Ext JSはindex.htmlと同ディレクトリにextjsというディレクトリで配置することを想定しています。
 * ext-lang-en.jsに必要なパッチは以下
-
+```
     @@ -100,7 +100,12 @@
             monthYearText: 'Choose a month (Control+Up/Down to move years)',
             todayTip: "{0} (Spacebar)",
@@ -19,4 +19,4 @@ LangSample
         });
 
         Ext.define("Ext.locale.en.picker.Month", {
-
+```
